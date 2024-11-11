@@ -1,0 +1,17 @@
+import db vào mysql
+
+chạy chương trình trên intellj (phải cài môi trường java, maven, apache)
+
+kết nối chương trình đến db
+
+chạy chương và test api qua postman
+
+post "http://localhost:8080/bookstore/books" để tạo một cuốn sách mới
+
+get "http://localhost:8080/bookstore/books" để lấy toàn bộ danh sách các cuốn sách
+
+get "http://localhost:8080/bookstore/books/{bookId}" để lấy thông tin của 1 cuốn sách
+
+put "http://localhost:8080/bookstore/books/{bookId}" để cập nhật thông tin của 1 cuốn sách
+
+delete "http://localhost:8080/bookstore/books/{bookId}" để xóa 1 cuốn sách
